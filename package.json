@@ -1,0 +1,23 @@
+{
+  "name": "node-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node.js",
+  "scripts": {
+    "dev": "nodemon x.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sofbritt/Node-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sofbritt/Node-practice/issues"
+  },
+  "homepage": "https://github.com/Sofbritt/Node-practice#readme",
+  "dependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
