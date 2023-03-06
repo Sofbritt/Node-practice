@@ -29,26 +29,27 @@
 
 // module.experts=name1
 
-const name3 = 'Sofi'
+=
 
-const abc = (somth) => {
-    console.log(`hello ${somth}`)
+// const abc = (somth) => {
+//     console.log(`hello ${somth}`)
+// }
+
+const name1=() =>{
+    console.log(__filename)
 }
 
-const x=setTimeout(()=>{
- console.log(__filename)
-},2000)
+const name2=()=>{
+    console.log(__dirname)
+}
 
-const a=setTimeout(()=>{
- console.log(__dirname)
-},3000)
+
 
 module.exports = {
 
-    abs: abc,
-    myname: name3,
-    filename:x,
-    dirname:a
+    
+    filename:name1,
+    dirname:name2
 
 }
 
