@@ -30,18 +30,25 @@
 // module.experts=name1
 
 const name3 = 'Sofi'
+
 const abc = (somth) => {
     console.log(`hello ${somth}`)
 }
 
-const x = (som) => {
-    console.log(`name ${som}`)
-}
+const x=setTimeout(()=>{
+ console.log(__filename)
+},2000)
+
+const a=setTimeout(()=>{
+ console.log(__dirname)
+},3000)
 
 module.exports = {
 
     abs: abc,
     myname: name3,
-    somthing:x
+    filename:x,
+    dirname:a
+
 }
 
